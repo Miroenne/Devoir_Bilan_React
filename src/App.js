@@ -4,6 +4,7 @@ import Services from './pages/Services';
 import Achievements from './pages/Achievements';
 import Mentions from './pages/Mentions';
 import Contact from './pages/Contact';
+import Footer from './components/Footer'
 import './App.css';
 import {Routes, Route} from "react-router-dom"
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/Mentions" element={<Mentions/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

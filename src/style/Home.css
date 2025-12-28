@@ -1,0 +1,56 @@
+
+.bg-hero{
+    background-image:url("../assets/images/hero-bg.jpg");
+    background-size: cover;
+    color: white; 
+    min-height:93vh;
+    
+}
+
+.h-270{
+    height: 270px;
+}
+
+.w-230{
+    width: 230px;
+}
+
+.bg-hero h1 {
+    font-size:5rem;
+}
+
+.bg-hero h2 {
+    font-size: 4rem;
+}
+
+.modal-link{
+    color:#539ffc;
+    text-decoration: underline;
+}
+
+.fs-7{
+    font-size: 0.75rem;
+}
+
+.not-link {
+    text-decoration: none;
+    color: white;
+   
+}
+
+
+#html{
+    width: 90%;
+}
+#css{
+    width: 80%;
+}
+#js{
+    width: 70%;
+}
+#php{
+    width: 60%;
+}
+#react{
+    width: 50%;
+}

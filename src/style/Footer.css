@@ -1,0 +1,32 @@
+footer{
+    font-size: 0.8rem;
+}
+h4{
+    font-weight: 600;
+    font-size: 1.3rem;
+    min-width: 250px;
+}    
+a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+li{
+    list-style: none;  
+    
+}
+span{
+    display: inline-block;
+    margin-right:5px;
+    margin-top: 10px;
+}
+
+
+.container-fluid{
+    background-color: #2b3035;
+    color: #fff;    
+}
+
+.ms-6{
+    margin-left: 2rem;
+}

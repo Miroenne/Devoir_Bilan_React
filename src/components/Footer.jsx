@@ -40,24 +40,26 @@ const Footer = () => {
                                 </span>                            
                             </div>                        
                         </address>
+                    </div>                
+                    <div className="col-lg justify-content-center">
+                        <SiteMap/>
                     </div>
+                    <div className="col-lg justify-content-center">
+                        <div className="container-fluid justify-content-center">
+                            <div className="container w-50 text-start">
+                            <h4>Mes dernières réalisations</h4>
+                            <ul className="ps-0">
+                                <li><Link to="/Achievements">Fresh Food</Link></li>
+                                <li><Link to="/Achievements">Restaurant Akira</Link></li>
+                                <li><Link to="/Achievements">Espace bien-être</Link></li>
+                                <li><Link to="/Achievements">SEO</Link></li>
+                                <li><Link to="/Achievements">Création d'une API</Link></li>
+                                <li><Link to="/Achievements">Maquette d'un site</Link></li>
+                            </ul>
+                        </div>
+                        </div>                        
+                    </div> 
                 </div>
-                <div className="col-lg justify-content-center">
-                    <SiteMap/>
-                </div>
-                <div className="col-lg justify-content-center">
-                    <div className="container w-50 text-start">
-                        <h4>Mes dernières réalisations</h4>
-                        <ul className="ps-0">
-                            <li><Link to="/Achievements">Fresh Food</Link></li>
-                            <li><Link to="/Achievements">Restaurant Akira</Link></li>
-                            <li><Link to="/Achievements">Espace bien-être</Link></li>
-                            <li><Link to="/Achievements">SEO</Link></li>
-                            <li><Link to="/Achievements">Création d'une API</Link></li>
-                            <li><Link to="/Achievements">Maquette d'un site</Link></li>
-                        </ul>
-                    </div>
-                </div> 
             </div>
         </footer>
     )

@@ -1,11 +1,14 @@
+
 import "../style/Home.css"
 import picture from "../assets/images/profil-picture.png"
 import about from "../assets/images/john-doe-about.jpg"
+
 
 const Home = () => {
 
     return( 
         <main>
+
             <section className="container-fluid d-flex bg-hero justify-content-center text-center align-items-center"> 
                 <div className="">
                     <h1 className="mb-5">Bonjour, je suis John Doe</h1>

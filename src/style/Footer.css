@@ -1,5 +1,6 @@
 footer{
     font-size: 0.8rem;
+    color: #fff;
 }
 h4{
     font-weight: 600;
@@ -20,13 +21,6 @@ span{
     display: inline-block;
     margin-right:5px;
     margin-top: 10px;
-}
-
-
-
-.container-fluid{
-    background-color: #2b3035;
-    color: #fff;    
 }
 
 .ms-6{

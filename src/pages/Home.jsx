@@ -90,6 +90,25 @@ const Home = () => {
                         <div className="col-md-6 col-sm-12 ">
                             <h3 className="border-bottom border-3 pb-3 border-primary">A propos</h3>
                             <img src={about} alt="" className="w-100" />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida metus accumsan lobortis tincidunt. 
+                                Curabitur egestas ultricies sem id porttitor. Donec dictum sollicitudin blandit. Etiam et commodo neque. 
+                                Cras id hendrerit dui. Quisque eleifend tellus sem. Maecenas efficitur nulla ac sapien lobortis, 
+                                eu iaculis lorem pretium. Morbi condimentum pulvinar eros eget faucibus. Fusce ac ex arcu.
+                            </p>
+                            <p>
+                                Ut tempus augue vel pharetra tristique. Duis lacus turpis, maximus eget urna eget, pharetra ullamcorper dui. 
+                                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque quis 
+                                sollicitudin tortor. Nam sit amet suscipit leo, eget tincidunt est. Morbi venenatis dapibus tortor, 
+                                quis sagittis massa volutpat a. Nullam porta lacus eget turpis congue vehicula. 
+                                Duis sed nibh nec urna lacinia tristique.
+                            </p>
+                            <p> Aliquam maximus volutpat ante, vel euismod arcu posuere consequat. Nunc interdum id justo nec finibus. 
+                                Vivamus rhoncus ligula at nisi molestie faucibus. Aliquam tincidunt fermentum ipsum, a tristique turpis pretium a. 
+                                Suspendisse mattis augue ex, in consequat ipsum malesuada eget. Aliquam euismod ex quis venenatis placerat. 
+                                Etiam feugiat purus nibh, sit amet porttitor felis imperdiet sed. Nunc dignissim nisi sed urna laoreet, 
+                                non cursus libero condimentum. Praesent et sem risus. Nam massa eros, viverra a rhoncus non, 
+                                pellentesque vitae magna. Sed sit amet ornare dui.
+                            </p>
                         </div>
                         <div className="col-md-6 col-sm-12 ">
                             <h3 className="border-bottom border-3 pb-3 border-primary">Mes Compétences</h3>

@@ -9,7 +9,7 @@ const Footer = () => {
     return(
 
         <footer>
-            <div className="container-fluid text-center pt-3 pb-2 ps-0 pe-0" data-bs-theme="dark">
+            <div className="container-fluid text-center pt-3 pb-2 ps-0 pe-0 bg-dark" >
                 <div className="row container-fluid justify-content-around">
                    <div className="col-lg">
                         <address className="container-fluid justify-content-center">

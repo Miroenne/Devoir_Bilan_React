@@ -9,8 +9,8 @@ const FooterLink = (props) => {
 
 const SiteMap = () => {
     return(
-        <div className="container-fluid justify-content-center">
-            <div className="w-50 container text-start">
+        <div className="container-fluid ">
+            <div className="container text-start">
                 <h4>Liens Utiles</h4>
                 <ul className="ps-0">
                     <li><FooterLink path="" label="Accueil"/></li>

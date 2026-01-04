@@ -10,18 +10,18 @@ const MyLink = (props) => {
 const Nav = ()=>{
     return(
         <header>            
-            <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-                <div className="container-fluid">                    
+            <nav className="navbar navbar-expand-md bg-body-tertiary" data-bs-theme="dark">
+                <div className="container-fluid px-4 ps-md-3 pe-md-0">                    
                     <div>
-                        <span className="navbar-brand mb-0">John Doe</span>
+                        <span className="navbar-brand mt-0">John Doe</span>
                     </div>
-                    <div className="d-flex">
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
-                        <span className="navbar-toggler-icon"></span>
-                        </button>
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                    <span className="navbar-toggler-icon mt-1 mb-1 me-0"></span>
+                    </button>  
+                    <div className="d-flex ps-0 container-md me-0">                                               
+                        <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <ul className="navbar-nav mb-2 mb-lg-0">
                                 <li className="nav-item">
                                     <MyLink label="Home" path=""/>
                                 </li>
@@ -39,7 +39,8 @@ const Nav = ()=>{
                                 </li>
                             </ul>
                         </div>
-                    </div>                                          
+                    </div>   
+                                                         
                 </div>     
             </nav>
             

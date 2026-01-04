@@ -11,9 +11,9 @@ const Footer = () => {
         <footer>
             <div className="container-fluid text-center pt-3 pb-2 ps-0 pe-0 bg-dark" >
                 <div className="row container-fluid justify-content-around">
-                   <div className="col-lg">
-                        <address className="container-fluid justify-content-center">
-                            <div className="container w-50 text-start">
+                   <div className="col-12 col-md-3">
+                        <address className="container-fluid">
+                            <div className="container text-start">
                                 <h4>John Doe</h4>
                                 <p className="mb-0 mt-2 ">40 rue Laurie Diebold </p>
                                 <p className="mb-0">69009 Lyon, France</p>
@@ -41,12 +41,12 @@ const Footer = () => {
                             </div>                        
                         </address>
                     </div>                
-                    <div className="col-lg justify-content-center">
+                    <div className="col-12 col-md-3 ">
                         <SiteMap/>
                     </div>
-                    <div className="col-lg justify-content-center">
-                        <div className="container-fluid justify-content-center">
-                            <div className="container w-50 text-start">
+                    <div className="col-12 col-md-3 me-4 ">
+                        <div className="container-fluid">
+                            <div className="container text-start text-wrap">
                             <h4>Mes dernières réalisations</h4>
                             <ul className="ps-0">
                                 <li><Link to="/Achievements">Fresh Food</Link></li>

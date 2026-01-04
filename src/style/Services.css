@@ -1,6 +1,8 @@
 .bg-banner{
-    background-image: url("../assets/images/banner.jpg");
+    /* background-image: url("../assets/images/banner.jpg");*/
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .vh-25{
@@ -13,4 +15,16 @@
 
 .w-30{
     min-width: 30%;
+}
+
+.fluid-text{
+    font-size: clamp(0.9rem, 2vw, 2rem);
+}
+
+.fluid-text-2{
+    font-size: clamp(0.9rem, 1.3vw, 1.2rem);
+}
+
+.fluid-title{
+    font-size: clamp(1.3rem, 2vw, 2rem);
 }

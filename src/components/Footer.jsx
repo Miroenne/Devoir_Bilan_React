@@ -9,11 +9,11 @@ const Footer = () => {
     return(
 
         <footer>
-            <div className="container-fluid text-center pt-3 pb-2 ps-0 pe-0 bg-dark" >
-                <div className="row container-fluid justify-content-around">
-                   <div className="col-12 col-md-3">
-                        <address className="container-fluid">
-                            <div className="container text-start">
+            <div className="container-fluid pt-3 pb-2 ps-0 pe-0 bg-dark" >
+                <div className="row container-fluid justify-content-around ">
+                   <div className="col-12 col-lg-3">
+                       <address className="p-0">
+                           <div className="container text-start">
                                 <h4>John Doe</h4>
                                 <p className="mb-0 mt-2 ">40 rue Laurie Diebold </p>
                                 <p className="mb-0">69009 Lyon, France</p>
@@ -38,13 +38,13 @@ const Footer = () => {
                                     </svg>
                                 </a>
                                 </span>                            
-                            </div>                        
+                            </div>                       
                         </address>
-                    </div>                
-                    <div className="col-12 col-md-3 ">
+                    </div>              
+                     <div className="col-12 col-lg-3">
                         <SiteMap/>
-                    </div>
-                    <div className="col-12 col-md-3 me-4 ">
+                    </div>  
+                    <div className="col-12 col-lg-3">
                         <div className="container-fluid">
                             <div className="container text-start text-wrap">
                             <h4>Mes dernières réalisations</h4>
@@ -58,8 +58,8 @@ const Footer = () => {
                             </ul>
                         </div>
                         </div>                        
-                    </div> 
-                </div>
+                    </div>  
+                </div> 
             </div>
         </footer>
     )

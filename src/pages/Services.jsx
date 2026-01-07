@@ -1,4 +1,5 @@
 import "../style/Services.css"
+import "../style/Global.css"
 import banner from "../assets/images/banner.jpg"
 
 const Services = () => {
@@ -9,11 +10,11 @@ const Services = () => {
                 <img src={banner} alt="" className="bg-banner w-100"/>
            </div>
            <div>
-            <div className="text-center my-5 px-3">                
-                <h1 className="">Mon offre de services</h1>
-                <p className="fluid-text">Voici les prestations sur lesquelles je peux intervenir</p>
+            <div className="text-center my-6 px-3">                
+                <h1 className="my-3">Mon offre de services</h1>
+                <p className="fluid-text my-3">Voici les prestations sur lesquelles je peux intervenir</p>
             {/* Ajout d'une balise div pour avoir une bordure responsive indépendante et ne pas réduire l'espace du texte*/}                
-                <div className="container w-35 border-bottom border-3 border-primary"></div>                            
+                <div className="container w-35 border-bottom border-5 border-primary"></div>                            
             </div>
             <div className="container-fluid mb-5">
                 <div className="row mx-2 mx-sm-0 justify-content-center">

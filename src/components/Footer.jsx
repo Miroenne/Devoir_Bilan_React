@@ -9,9 +9,9 @@ const Footer = () => {
     return(
 
         <footer>
-            <div className="container-fluid pt-3 pb-2 ps-0 pe-0 bg-dark" >
-                <div className="row container-fluid justify-content-around ">
-                   <div className="col-12 col-lg-3">
+            <div className="container-fluid pt-3 pb-2 px-0 bg-dark" >
+                <div className="row container-fluid px-0 mx-0 justify-content-center ">
+                   <div className="col-12 col-md-3">
                        <address className="p-0">
                            <div className="container text-start">
                                 <h4>John Doe</h4>
@@ -41,10 +41,10 @@ const Footer = () => {
                             </div>                       
                         </address>
                     </div>              
-                     <div className="col-12 col-lg-3">
+                     <div className="col-12 col-md-3">
                         <SiteMap/>
                     </div>  
-                    <div className="col-12 col-lg-3">
+                    <div className="col-12 col-md-3">
                         <div className="container-fluid">
                             <div className="container text-start text-wrap">
                             <h4>Mes dernières réalisations</h4>

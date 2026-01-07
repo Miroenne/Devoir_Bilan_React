@@ -1,0 +1,44 @@
+.vh-25{
+    min-height:25vh;
+}
+
+.vh-75{
+    min-height: 75vh;
+}
+
+.w-35{
+    width:35%;
+}
+
+.w-30{
+    min-width: 30%;
+}
+
+.fluid-text{
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+.fluid-text-2{
+    font-size: clamp(0.9rem, 1.3vw, 1.2rem);
+}
+
+.fluid-title{
+    font-size: clamp(1.3rem, 2vw, 3rem);
+}
+
+.my-6{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.h-270{
+    height: 270px;
+}
+
+.w-230{
+    width: 230px;
+}
+
+.fs-7{
+    font-size: 0.75rem;
+}

@@ -10,8 +10,8 @@ const MyLink = (props) => {
 const Nav = ()=>{
     return(
         <header>            
-            <nav className="navbar navbar-expand-md bg-body-tertiary" data-bs-theme="dark">
-                <div className="container-fluid px-4 ps-md-3 pe-md-0">                    
+            <nav className="navbar navbar-expand-md bg-body-tertiary fs-5" data-bs-theme="dark">
+                <div className="container-fluid pe-4 ps-5">                    
                     <div>
                         <span className="navbar-brand mt-0">John Doe</span>
                     </div>

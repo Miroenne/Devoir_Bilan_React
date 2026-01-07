@@ -1,5 +1,6 @@
 
 import "../style/Home.css"
+import "../style/Global.css"
 import picture from "../assets/images/profil-picture.png"
 import about from "../assets/images/john-doe-about.jpg"
 

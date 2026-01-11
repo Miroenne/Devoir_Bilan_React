@@ -1,9 +1,23 @@
+.bg-banner{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.card{
+    
+}
+
 .vh-25{
     min-height:25vh;
 }
 
 .vh-75{
     min-height: 75vh;
+}
+
+.min-vh-43{
+    min-height: 43vh;
 }
 
 .w-35{
@@ -19,7 +33,7 @@
 }
 
 .fluid-text-2{
-    font-size: clamp(0.9rem, 1.3vw, 1.2rem);
+    font-size: clamp(0.9rem, 0.9vw, 1.2rem);
 }
 
 .fluid-title{
@@ -31,6 +45,14 @@
     margin-bottom: 6rem;
 }
 
+.my-7{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.mt-8{
+    margin-top: 8rem;
+}
 .h-270{
     height: 270px;
 }

@@ -9,12 +9,12 @@ const Home = () => {
 
     return( 
         <main>
-
             <section className="container-fluid d-flex bg-hero justify-content-center text-center align-items-center"> 
                 <div className="">
                     <h1 className="mb-5">Bonjour, je suis John Doe</h1>
                     <h2 className="mt-5 mb-5">Développeur web full stack</h2>
                     <button type="button" class="btn btn-danger mt-4" data-bs-toggle="modal" data-bs-target="#myModal">En savoir plus</button>
+                {/*Partie du Modal*/}
                     <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
                     <div class="modal-dialog me-auto ms-auto modal-dialog-centered">
                             <div class="modal-content  text-bg-dark">
@@ -31,7 +31,7 @@ const Home = () => {
                                         <div className="col-sm-12 col-md-6">
                                             <div className="pb-1 border-bottom border-light-subtle">                                                
                                                 <a className="modal-link justify-self-start text-start" href="#">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person not-link me-2" viewBox="0 0 16 16">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person text-light text-decoration-none me-2" viewBox="0 0 16 16">
                                                 <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
                                                 </svg>John Doe</a>    
                                             </div>
@@ -85,9 +85,10 @@ const Home = () => {
                     </div>    
                 </div>     
             </section>
-            <section className="mt-4 ps-3 pe-3">
+            <section className="mt-4 ps-3 pe-3">            
                 <div className="container-fluid bg-light text-dark shadow-lg p-3 mb-5 bg-body-tertiary rounded">
                     <div className="row ">
+                    {/*Partie A propos*/}
                         <div className="col-md-6 col-sm-12 ">
                             <h3 className="border-bottom border-3 pb-3 border-primary">A propos</h3>
                             <img src={about} alt="" className="w-100" />
@@ -111,6 +112,7 @@ const Home = () => {
                                 pellentesque vitae magna. Sed sit amet ornare dui.
                             </p>
                         </div>
+                    {/*Partie Compétences*/}    
                         <div className="col-md-6 col-sm-12 ">
                             <h3 className="border-bottom border-3 pb-3 border-primary">Mes Compétences</h3>
                             <h4>HTML5 90%</h4>

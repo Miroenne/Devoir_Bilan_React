@@ -1,20 +1,13 @@
+/* BACKGROUND */ 
+/*Création d'une classe regropant les propriétés nécessaires à la bannière pour éviter la répétition de plusieurs classes Bootstrap */
+
 .bg-banner{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
-.card{
-    
-}
-
-.vh-25{
-    min-height:25vh;
-}
-
-.vh-75{
-    min-height: 75vh;
-}
+/* SIZING */
 
 .min-vh-43{
     min-height: 43vh;
@@ -24,9 +17,21 @@
     width:35%;
 }
 
-.w-30{
-    min-width: 30%;
+.h-270{
+    height: 270px;
 }
+
+.w-230{
+    width: 230px;
+}
+
+.fs-7{
+    font-size: 0.75rem;
+}
+
+/* RESPONSIVE */
+/* Création de classes pour rendre du texte et des titres responsive et garder une fluidité ainsi qu'un affichage correct */
+/* clamp (valeur minimale, "occupation" de la page, valeur maximale) */
 
 .fluid-text{
     font-size: clamp(1rem, 2vw, 1.5rem);
@@ -40,6 +45,10 @@
     font-size: clamp(1.3rem, 2vw, 3rem);
 }
 
+
+
+/* MARGIN AND PADDING */
+
 .my-6{
     margin-top: 6rem;
     margin-bottom: 6rem;
@@ -50,17 +59,8 @@
     margin-bottom: 7rem;
 }
 
-.mt-8{
-    margin-top: 8rem;
-}
-.h-270{
-    height: 270px;
-}
+/* TEXT */
 
-.w-230{
-    width: 230px;
-}
-
-.fs-7{
-    font-size: 0.75rem;
+.active{
+    text-decoration: underline;
 }

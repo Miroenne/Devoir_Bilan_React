@@ -12,6 +12,7 @@ const Contact = () => {
             </div>
             <div className="container-fluid  justify-content-center px-0 my-6 ">
                 <div className="row container  mx-auto py-3  shadow px-0 justify-content-center">
+            {/*Partie du formulaire de contact*/}    
                     <div className="col-12 col-md-5">
                         <div className="text-start my-3 px-3">                
                             <h2 className="my-3">Formulaire de contact</h2>                            
@@ -44,6 +45,7 @@ const Contact = () => {
                             </div>                           
                         </form>
                     </div>
+            {/*Partie des coordonnées*/}    
                     <div className="col-12 col-md-5 vh-50 px-3">
                         <div className="text-start my-3">                
                             <h2 className="my-3">Mes coordonnées</h2>                            

@@ -1,6 +1,8 @@
 import {NavLink} from "react-router-dom";
 import '../style/Nav.css';
+import '../style/Global.css';
 
+/* Fonction pour rendre le style des éléments <NavLink> dynamique en fonction de l'éléments sélectionné grâce à la classe "active" */
 const MyLink = (props) => {
     return(
         <NavLink className={({isActive}) => isActive? "nav-link active" : "nav-link"} to={"/" + props.path}>{props.label}</NavLink>

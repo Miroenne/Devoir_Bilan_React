@@ -5,14 +5,14 @@ const Mentions = () => {
                 <h1 className="mb-3">Mentions légales</h1>
                 <div className="container w-35 border-bottom border-5 border-primary"></div>
             </div>
-            <div class="accordion container my-7 w-75 min-vh-43 justify-content-center align-items-center" id="accordionExample">
+            <div class="accordion container my-7 w-75 min-vh-43 justify-content-center align-items-center" id="mentionsAccordion">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#editeur" aria-expanded="true" aria-controls="collapseOne">
                         Editeur du site
                     </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div id="editeur" class="accordion-collapse collapse show" data-bs-parent="#mentionsAccordion">
                     <div class="accordion-body">
                         <adress>
                             <h3>John Doe</h3>
@@ -49,11 +49,11 @@ const Mentions = () => {
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hebergeur" aria-expanded="false" aria-controls="collapseTwo">
                         Hébergeur
                     </button>
                     </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div id="hebergeur" class="accordion-collapse collapse" data-bs-parent="#mentionsAccordion">
                     <div class="accordion-body">
                         <h3>alwaysdata</h3>
                         <p>91 Rue du Faubourg Saint-Honoré, 75008 Paris</p>
@@ -68,11 +68,11 @@ const Mentions = () => {
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#credits" aria-expanded="false" aria-controls="collapseThree">
                         Crédits
                     </button>
                     </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div id="credits" class="accordion-collapse collapse" data-bs-parent="#mentionsAccordion">
                     <div class="accordion-body">
                         <h3>Crédits</h3>
                         <p><em className="fst-normal">Ce site a été réalisé par John Doe, étudiant au <a href="https://www.centre-europeen-formation.fr/" className="d-inline text-primary text-decoration-underline" target="_blank">Centre Européen de Formation</a></em></p>

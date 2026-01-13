@@ -1,4 +1,5 @@
 import "../style/Footer.css";
+import "../style/Global.css"
 import SiteMap from "./SiteMap";
 import { Link } from "react-router-dom";
 

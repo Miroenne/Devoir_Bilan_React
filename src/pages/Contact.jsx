@@ -21,23 +21,23 @@ const Contact = () => {
                         </div>
                         <form className="px-3 mb-4">
                             <div class="mb-3">                                
-                                <input type="text" class="form-control" placeholder="Votre nom" 
+                                <input type="text" required="true" class="form-control" placeholder="Votre nom" 
                                 id="exampleInputEmail1" aria-describedby="emailHelp"/>                                
                             </div>
                             <div class="mb-3">
                                 
-                                <input type="email" class="form-control" placeholder="Votre adresse email" 
+                                <input type="email" required="true" class="form-control" placeholder="Votre adresse email" 
                                 id="exampleInputPassword1"/>
                             </div>
                             <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Votre numéro de téléphone" 
+                                <input type="text" required="true" class="form-control" placeholder="Votre numéro de téléphone" 
                                 id="exampleCheck1"/>                                
                             </div>
                             <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Sujet" id="exampleCheck1"/>                                
+                                <input type="text" required="true" class="form-control" placeholder="Sujet" id="exampleCheck1"/>                                
                             </div>
                             <div class="mb-3">
-                                <textarea type="text" class="form-control" rows="10" placeholder="Votre message" 
+                                <textarea type="text" required="true" class="form-control" rows="10" placeholder="Votre message" 
                                 id="exampleCheck1"/>                                
                             </div>
                             <div className="d-flex justify-content-center">

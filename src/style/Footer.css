@@ -25,3 +25,8 @@ span{
     margin-top: 10px;
 }
 
+
+
+.hover-light:hover{
+    color: white;
+}

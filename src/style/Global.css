@@ -7,6 +7,11 @@
     background-repeat: no-repeat;
 }
 
+.card-hover:hover{
+    background-color: #efefef;
+    box-shadow: 5px 5px 5px rgb(211, 211, 211, 0.6);
+}
+
 /* SIZING */
 
 .min-vh-43{
@@ -41,11 +46,6 @@
     font-size: clamp(0.9rem, 0.9vw, 1.2rem);
 }
 
-.fluid-title{
-    font-size: clamp(1.3rem, 2vw, 3rem);
-}
-
-
 
 /* MARGIN AND PADDING */
 
@@ -63,4 +63,8 @@
 
 .active{
     text-decoration: underline;
+}
+
+.fw-bold-hover:hover{
+    font-weight: bold;
 }

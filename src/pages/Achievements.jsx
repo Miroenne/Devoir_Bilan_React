@@ -30,7 +30,7 @@ const Achievements = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Fresh Food</h5>
                                 <p class="card-text">Site de vente de produits frais en ligne</p>
-                                <a href="#" class="btn btn-primary">Voir le site</a>
+                                <a href="#" class="btn btn-primary btn-bg-hover">Voir le site</a>
                             </div>
                             <div className="bg-body-secondary border border-2">
                                 <em className="fst-normal">Site réalisé avec PHP et MySQL</em>
@@ -43,7 +43,7 @@ const Achievements = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Restaurant Akira</h5>
                                 <p class="card-text">Site de vente de produits frais en ligne</p>
-                                <a href="#" class="btn btn-primary">Voir le site</a>
+                                <a href="#" class="btn btn-primary btn-bg-hover">Voir le site</a>
                             </div>
                             <div className="bg-body-secondary border border-2">
                                 <em className="fst-normal">Site réalisé avec WordPress</em>
@@ -56,7 +56,7 @@ const Achievements = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Espace bien-être</h5>
                                 <p class="card-text">Site de vente de produits frais en ligne</p>
-                                <a href="#" class="btn btn-primary">Voir le site</a>
+                                <a href="#" class="btn btn-primary btn-bg-hover">Voir le site</a>
                             </div>
                             <div className="bg-body-secondary border border-2">
                                 <em className="fst-normal">Site réalisé avec LARAVEL</em>
@@ -72,7 +72,7 @@ const Achievements = () => {
                             <div class="card-body">
                                 <h5 class="card-title">SEO</h5>
                                 <p class="card-text">Amélioration du référencement d'un site e-commerce</p>
-                                <a href="#" class="btn btn-primary">Voir le site</a>
+                                <a href="#" class="btn btn-primary btn-bg-hover">Voir le site</a>
                             </div>
                             <div className="bg-body-secondary border border-2">
                                 <em className="fst-normal">Utilisation des outils SEO</em>
@@ -85,7 +85,7 @@ const Achievements = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Création d'une API</h5>
                                 <p class="card-text">Création d'une API RESTFULL publique</p>
-                                <a href="#" class="btn btn-primary">Voir le site</a>
+                                <a href="#" class="btn btn-primary btn-bg-hover">Voir le site</a>
                             </div>
                             <div className="bg-body-secondary border border-2">
                                 <em className="fst-normal">PHP - SYMFONY</em>
@@ -98,7 +98,7 @@ const Achievements = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Maquette d'un site web</h5>
                                 <p class="card-text">Création du prototype d'un site</p>
-                                <a href="#" class="btn btn-primary">Voir le site</a>
+                                <a href="#" class="btn btn-primary btn-bg-hover">Voir le site</a>
                             </div>
                             <div className="bg-body-secondary border border-2">
                                 <em className="fst-normal">Réalisé avec Figma</em>

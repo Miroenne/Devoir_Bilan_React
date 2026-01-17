@@ -1,27 +1,29 @@
 import {NavLink} from "react-router-dom";
-import '../components/Nav.css';
+import '../style/Nav.css';
+import '../style/Global.css';
 
+/* Fonction pour rendre le style des éléments <NavLink> dynamique en fonction de l'éléments sélectionné grâce à la classe "active" */
 const MyLink = (props) => {
     return(
-        <NavLink className={({isActive}) => isActive? "nav-link active" : "nav-link"} to={"/" + props.path}>{props.label}</NavLink>
+        <NavLink className={({isActive}) => isActive? "nav-link fs-6 fw-bold text-uppercase active" : "nav-link fs-6 text-uppercase"} to={"/" + props.path}>{props.label}</NavLink>
     )
 }
 
 const Nav = ()=>{
     return(
         <header>            
-            <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-                <div className="container-fluid">                    
+            <nav className="navbar navbar-expand-lg bg-body-tertiary fs-5" data-bs-theme="dark">
+                <div className="container-fluid pe-4 ps-5">                    
                     <div>
-                        <span className="navbar-brand mb-0">John Doe</span>
+                        <span className="navbar-brand mt-0">John Doe</span>
                     </div>
-                    <div className="d-flex">
-                        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
-                        <span className="navbar-toggler-icon"></span>
-                        </button>
-                        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                    <span className="navbar-toggler-icon mt-1 mb-1 me-0"></span>
+                    </button>  
+                    <div className="d-flex ps-0 container-lg me-0">                                               
+                        <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <ul className="navbar-nav ">
                                 <li className="nav-item">
                                     <MyLink label="Home" path=""/>
                                 </li>
@@ -39,7 +41,8 @@ const Nav = ()=>{
                                 </li>
                             </ul>
                         </div>
-                    </div>                                          
+                    </div>   
+                                                         
                 </div>     
             </nav>
             

@@ -1,0 +1,77 @@
+/* BACKGROUND */ 
+/*Création d'une classe regroupant les propriétés nécessaires à la bannière pour éviter la répétition de plusieurs classes Bootstrap */
+/* Created a class with the banner's propertys to avoid repeat of many Bootstrap's classes" */
+
+.bg-banner{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.card-hover:hover{
+    background-color: #efefef;
+    box-shadow: 5px 5px 5px rgb(211, 211, 211, 0.6);
+}
+
+.btn-bg-hover:hover{
+    background-color: #3c8afd;
+}
+
+/* SIZING */
+
+.min-vh-43{
+    min-height: 43vh;
+}
+
+.w-35{
+    width:35%;
+}
+
+.h-270{
+    height: 270px;
+}
+
+.w-230{
+    width: 230px;
+}
+
+.fs-7{
+    font-size: 0.75rem;
+}
+
+/* RESPONSIVE */
+/* Création de classes pour rendre du texte responsive et garder une fluidité ainsi qu'un affichage correct */
+/* Created classes to make text responsive while maintaining fluidity and proper display */ 
+/* clamp (valeur minimale, "occupation" de la page, valeur maximale) */
+
+
+.fluid-text{
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+.fluid-text-2{
+    font-size: clamp(0.9rem, 0.9vw, 1.2rem);
+}
+
+
+/* MARGIN AND PADDING */
+
+.my-6{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.my-7{
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+/* TEXT */
+
+.active{
+    text-decoration: underline;
+}
+
+.fw-bold-hover:hover{
+    font-weight: bold;
+}

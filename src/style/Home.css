@@ -1,3 +1,4 @@
+/* CLASS */
 
 .bg-hero{
     background-image:url("../assets/images/hero-bg.jpg");
@@ -5,14 +6,6 @@
     color: white; 
     min-height:93vh;
     
-}
-
-.h-270{
-    height: 270px;
-}
-
-.w-230{
-    width: 230px;
 }
 
 .bg-hero h1 {
@@ -28,16 +21,7 @@
     text-decoration: underline;
 }
 
-.fs-7{
-    font-size: 0.75rem;
-}
-
-.not-link {
-    text-decoration: none;
-    color: white;
-   
-}
-
+/* ID */
 
 #html{
     width: 90%;

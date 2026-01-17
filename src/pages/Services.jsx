@@ -11,7 +11,8 @@ const Services = () => {
             <div className="text-center my-6 px-3">                
                 <h1 className="my-3">Mon offre de services</h1>
                 <p className="fluid-text my-3">Voici les prestations sur lesquelles je peux intervenir</p>
-            {/* Ajout d'une balise div pour avoir une bordure responsive indépendante et ne pas réduire l'espace du texte*/}                
+            {/* Ajout d'une balise div pour avoir une bordure responsive indépendante et ne pas réduire l'espace du texte*/} 
+            {/* Add a "div" tag to make reponsive the border without effects on the text's place*/}                
                 <div className="container w-35 border-bottom border-5 border-primary"></div>                            
             </div>
             </section>

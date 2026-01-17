@@ -1,5 +1,6 @@
 /* BACKGROUND */ 
-/*Création d'une classe regropant les propriétés nécessaires à la bannière pour éviter la répétition de plusieurs classes Bootstrap */
+/*Création d'une classe regroupant les propriétés nécessaires à la bannière pour éviter la répétition de plusieurs classes Bootstrap */
+/* Created a class with the banner's propertys to avoid repeat of many Bootstrap's classes" */
 
 .bg-banner{
     background-size: cover;
@@ -39,8 +40,10 @@
 }
 
 /* RESPONSIVE */
-/* Création de classes pour rendre du texte et des titres responsive et garder une fluidité ainsi qu'un affichage correct */
+/* Création de classes pour rendre du texte responsive et garder une fluidité ainsi qu'un affichage correct */
+/* Created classes to make text responsive while maintaining fluidity and proper display */ 
 /* clamp (valeur minimale, "occupation" de la page, valeur maximale) */
+
 
 .fluid-text{
     font-size: clamp(1rem, 2vw, 1.5rem);

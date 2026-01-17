@@ -12,6 +12,7 @@ const Footer = () => {
         <footer>
             <div className="container-fluid pt-3 pb-2 px-0 bg-dark" >
                 <div className="row container-fluid px-0 mx-0 justify-content-center ">
+                {/* Contact details section */}
                    <div className="col-12 col-md-3">
                        <address className="p-0">
                            <div className="container text-start">
@@ -41,10 +42,12 @@ const Footer = () => {
                                 </span>                            
                             </div>                       
                         </address>
-                    </div>              
-                     <div className="col-12 col-md-3">
-                        <SiteMap/>
                     </div>  
+                {/* Sitemap section */}            
+                    <div className="col-12 col-md-3">
+                        <SiteMap/>
+                    </div> 
+                {/* Last achievements section */} 
                     <div className="col-12 col-md-3">
                         <div className="container-fluid">
                             <div className="container text-start text-wrap">

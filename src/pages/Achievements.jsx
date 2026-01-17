@@ -20,9 +20,10 @@ const Achievements = () => {
                     <p className="fluid-text-2">Voici quelques-une de mes réalisations</p>
                 </div>
                 
-                {/* Ajout d'une balise div pour avoir une bordure responsive indépendante et ne pas réduire l'espace du texte*/}                
+            {/* Ajout d'une balise div pour avoir une bordure responsive indépendante et ne pas réduire l'espace du texte*/}
+            {/* Add a "div" tag to make reponsive the border without effects on the text's place*/}                
                 <div className="container w-35 border-bottom border-5 border-primary mb-4 mb-md-5"></div>
-            {/*1ere ligne de progjets*/}    
+            {/*1ere ligne de projets // First row of Achievements*/}    
                 <div className="row px-5 px-md-0 justify-content-center mt-md-5 mb-2 mb-md-4">
                     <div className="col-12 col-md-3 text-center">
                         <div class="card card-hover h-100">
@@ -64,7 +65,7 @@ const Achievements = () => {
                         </div>
                     </div>
                 </div>
-            {/*2eme ligne de progjets*/}    
+            {/*2eme ligne de projets // Second row of Achievements*/}    
                 <div className="row mb-5 px-5 px-md-0 justify-content-center">
                     <div className="col-12 col-md-3  text-center">
                         <div class="card card-hover h-100">

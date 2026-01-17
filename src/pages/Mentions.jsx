@@ -12,6 +12,7 @@ const Mentions = () => {
                     <h1 className="mb-3">Mentions légales</h1>
                     <div className="container w-35 border-bottom border-5 border-primary"></div>
                 </div>
+            {/* Site editor section*/}
                 <div class="accordion container my-7 w-75 min-vh-43 justify-content-center align-items-center" id="mentionsAccordion">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
@@ -54,6 +55,7 @@ const Mentions = () => {
                         </div>
                         </div>
                     </div>
+                {/* Hosting provider section*/}
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hebergeur" aria-expanded="false" aria-controls="collapseTwo">
@@ -73,6 +75,8 @@ const Mentions = () => {
                         </div>
                         </div>
                     </div>
+
+                {/* Credits section*/}
                     <div class="accordion-item">
                         <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#credits" aria-expanded="false" aria-controls="collapseThree">

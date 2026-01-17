@@ -7,16 +7,18 @@ const Contact = () => {
             <div className="text-center my-5 px-3">                
                 <h1 className="my-3">Contact</h1>
                 <p className="fluid-text my-3">Pour me contacter en vue d'un entretion ou d'une future collaboration, merci de remplir le formulaire de contact.</p>
-            {/* Ajout d'une balise div pour avoir une bordure responsive indépendante et ne pas réduire l'espace du texte*/}                
+            {/* Ajout d'une balise div pour avoir une bordure responsive indépendante et ne pas réduire l'espace du texte*/} 
+            {/* Add a "div" tag to make reponsive the border without effects on the text's place*/}                                  
                 <div className="container w-35 border-bottom border-5 border-primary"></div>                            
             </div>
             <div className="container-fluid  justify-content-center px-0 my-6 ">
                 <div className="row container  mx-auto py-3  shadow px-0 justify-content-center">
-            {/*Partie du formulaire de contact*/}    
+            {/*Partie du formulaire de contact // Contact form section*/}    
                     <div className="col-12 col-md-5">
                         <div className="text-start my-3 px-3">                
                             <h2 className="my-3">Formulaire de contact</h2>                            
-                        {/* Ajout d'une balise div pour avoir une bordure responsive indépendante et ne pas réduire l'espace du texte*/}                
+                        {/* Ajout d'une balise div pour avoir une bordure responsive indépendante et ne pas réduire l'espace du texte*/}
+                        {/* Add a "div" tag to make reponsive the border without effects on the text's place*/}  
                             <div className="container w-100 border-bottom border-5 border-primary"></div>                            
                         </div>
                         <form className="px-3 mb-4">
@@ -45,11 +47,12 @@ const Contact = () => {
                             </div>                           
                         </form>
                     </div>
-            {/*Partie des coordonnées*/}    
+            {/*Partie des coordonnées // Contact details section*/}    
                     <div className="col-12 col-md-5 vh-50 px-3">
                         <div className="text-start my-3">                
                             <h2 className="my-3">Mes coordonnées</h2>                            
-                        {/* Ajout d'une balise div pour avoir une bordure responsive indépendante et ne pas réduire l'espace du texte*/}                
+                        {/* Ajout d'une balise div pour avoir une bordure responsive indépendante et ne pas réduire l'espace du texte*/} 
+                        {/* Add a "div" tag to make reponsive the border without effects on the text's place*/}                
                             <div className="container w-100 border-bottom border-5 border-primary"></div>                            
                         </div>
                         <adress>

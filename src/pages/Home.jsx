@@ -19,7 +19,7 @@ const Home = () => {
             <section className="mt-4 ps-3 pe-3">            
                 <div className="container-fluid bg-light text-dark shadow p-3 mb-5 bg-body-tertiary rounded">
                     <div className="row ">
-                    {/*Partie A propos*/}
+            {/*Partie A propos // About section*/}
                         <div className="col-md-6 col-sm-12 ">
                             <h3 className="border-bottom border-3 pb-3 border-primary">A propos</h3>
                             <img src={about} alt="" className="w-100" />
@@ -43,7 +43,7 @@ const Home = () => {
                                 pellentesque vitae magna. Sed sit amet ornare dui.
                             </p>
                         </div>
-                    {/*Partie Compétences*/}    
+            {/*Partie Compétences // Skills section*/}    
                         <div className="col-md-6 col-sm-12 ">
                             <h3 className="border-bottom border-3 pb-3 border-primary">Mes Compétences</h3>
                             <h4>HTML5 90%</h4>

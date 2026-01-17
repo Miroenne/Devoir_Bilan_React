@@ -1,3 +1,4 @@
+/* CLASS */
 
 .bg-hero{
     background-image:url("../assets/images/hero-bg.jpg");
@@ -20,6 +21,7 @@
     text-decoration: underline;
 }
 
+/* ID */
 
 #html{
     width: 90%;
